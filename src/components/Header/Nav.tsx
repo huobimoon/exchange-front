@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
             {/*<StyledAbsoluteLink href="https://www.huobimoon.com">*/}
             {/*    <TranslatedText translationId={112}>Home</TranslatedText>*/}
             {/*</StyledAbsoluteLink>*/}
-            <StyledAbsoluteLink href="http://info.huobimoon.com">
+            <StyledAbsoluteLink href="http://info.huobimoon.com" target="_blank">
                 <TranslatedText translationId={262}>Analytics</TranslatedText>
             </StyledAbsoluteLink>
             {/*<StyledAbsoluteLink href="https://app.pippi.finance/staking">*/}

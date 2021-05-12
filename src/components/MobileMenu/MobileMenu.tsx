@@ -22,7 +22,7 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ onDismiss, visible }) => {
         <StyledBackdrop onClick={onDismiss} />
         <StyledMobileMenu>
           <Bg></Bg>
-          <Cn>
+          {/*<Cn>
             <StyledAbsoluteLink href="https://app.pippi.finance">
               <TranslatedText translationId={130}>Home</TranslatedText>
             </StyledAbsoluteLink>
@@ -41,13 +41,13 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ onDismiss, visible }) => {
             <StyledAbsoluteLink href="https://app.pippi.finance/xpipi">
               <TranslatedText translationId={132}>xPIPI Pools</TranslatedText>
             </StyledAbsoluteLink>
-          </Cn>
+          </Cn>*/}
           <Cn>
             <StyledLink className="active" to="/">
               <TranslatedText translationId={116}>Exchange</TranslatedText>
             </StyledLink>
           </Cn>
-          <Cn>
+          {/*<Cn>
             <StyledAbsoluteLink href="https://app.pippi.finance/nft">
               <TranslatedText translationId={258}>NFT</TranslatedText>
             </StyledAbsoluteLink>
@@ -56,19 +56,19 @@ const MobileMenu: React.FC<MobileMenuProps> = ({ onDismiss, visible }) => {
             <StyledAbsoluteLink href="https://app.pippi.finance/ido">
               <TranslatedText translationId={264}>IDO</TranslatedText>
             </StyledAbsoluteLink>
-          </Cn>
+          </Cn>*/}
           <Cn>
-            <StyledAbsoluteLink href="https://info.pippi.finance" target="_blank">
+            <StyledAbsoluteLink href="http://info.huobimoon.com" target="_blank">
               <TranslatedText translationId={262}>Analytics</TranslatedText>
             </StyledAbsoluteLink>
           </Cn>
-          <Cn>
+          {/*<Cn>
             <StyledAbsoluteLink href="https://voting.pippi.finance" target="_blank">
               <TranslatedText translationId={284}>Voting</TranslatedText>
             </StyledAbsoluteLink>
-          </Cn>
+          </Cn>*/}
           <Bottom>
-            {account && <Price className="number">1PIPI= ${pippiPrice.toFixed(3)}</Price>}
+            {account && <Price className="number">1HBM= ${pippiPrice.toFixed(3)}</Price>}
             <LngSwith className="mobile-lng-swith"></LngSwith>
           </Bottom>
         </StyledMobileMenu>
